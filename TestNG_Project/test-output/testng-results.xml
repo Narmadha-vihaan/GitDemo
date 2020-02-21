@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="55487" started-at="2020-02-20T17:13:12 EST" finished-at="2020-02-20T17:14:08 EST">
+    <groups>
+      <group name="smoke">
+        <method signature="managepayments.payments()[pri:0, instance:JCpenny.TestNG_Project.managepayments@e320068]" name="payments" class="JCpenny.TestNG_Project.managepayments"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Loginpage validation" duration-ms="29843" started-at="2020-02-20T17:13:12 EST" finished-at="2020-02-20T17:13:42 EST">
+      <class name="JCpenny.TestNG_Project.Login">
+        <test-method status="PASS" signature="initilizingbrowser()[pri:0, instance:JCpenny.TestNG_Project.Login@3fd7a715]" name="initilizingbrowser" is-config="true" duration-ms="15958" started-at="2020-02-20T17:13:12 EST" finished-at="2020-02-20T17:13:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizingbrowser -->
+        <test-method status="PASS" signature="home()[pri:0, instance:JCpenny.TestNG_Project.Login@3fd7a715]" name="home" duration-ms="11467" started-at="2020-02-20T17:13:28 EST" finished-at="2020-02-20T17:13:40 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="closing()[pri:0, instance:JCpenny.TestNG_Project.Login@3fd7a715]" name="closing" is-config="true" duration-ms="2349" started-at="2020-02-20T17:13:40 EST" finished-at="2020-02-20T17:13:42 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- JCpenny.TestNG_Project.Login -->
+    </test> <!-- Loginpage validation -->
+    <test name="paymentvalidation" duration-ms="25576" started-at="2020-02-20T17:13:42 EST" finished-at="2020-02-20T17:14:08 EST">
+      <class name="JCpenny.TestNG_Project.managepayments">
+        <test-method status="PASS" signature="initilizingbrowser()[pri:0, instance:JCpenny.TestNG_Project.managepayments@e320068]" name="initilizingbrowser" is-config="true" duration-ms="13285" started-at="2020-02-20T17:13:42 EST" finished-at="2020-02-20T17:13:56 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizingbrowser -->
+        <test-method status="PASS" signature="payments()[pri:0, instance:JCpenny.TestNG_Project.managepayments@e320068]" name="payments" duration-ms="10182" started-at="2020-02-20T17:13:56 EST" finished-at="2020-02-20T17:14:06 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payments -->
+        <test-method status="PASS" signature="closing()[pri:0, instance:JCpenny.TestNG_Project.managepayments@e320068]" name="closing" is-config="true" duration-ms="2105" started-at="2020-02-20T17:14:06 EST" finished-at="2020-02-20T17:14:08 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- JCpenny.TestNG_Project.managepayments -->
+    </test> <!-- paymentvalidation -->
+  </suite> <!-- Suite -->
+</testng-results>
