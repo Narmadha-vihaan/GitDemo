@@ -9,7 +9,12 @@
       <class name="JCpenny.TestNG_Project.Login"/>
       </classes>
       </test>
-      <test name="paymentvalidation">
+      <test name="Loginpage validation">
+    <classes>
+      <class name="JCpenny.TestNG_Project.home"/>
+      </classes>
+      </test>
+            <test name="paymentvalidation">
       <classes>
        <class name="JCpenny.TestNG_Project.managepayments"/>
          </classes>
